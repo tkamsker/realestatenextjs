@@ -1,0 +1,11 @@
+import FeaturedListings from '@/components/FeaturedListings';
+import Hero from '@/components/Hero';
+
+export default function Home() {
+  return (
+    <div>
+      <Hero />
+      <FeaturedListings />
+    </div>
+  );
+}
